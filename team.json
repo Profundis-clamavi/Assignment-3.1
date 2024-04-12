@@ -1,0 +1,19 @@
+{
+    "teamMembers": [
+        {
+            "Position": "Senior Application developer",
+            "Name": "Samuel Kramer",
+            "Salary": "$202 000.00"
+        },
+        {
+            "Position": "Lead advertisment coordinator",
+            "Name": "Jessica nother",
+            "Salary": "153 000.00"
+        },
+        {
+            "Position": "Junior developer",
+            "Name": "Nathaniel Yeo",
+            "Salary": "33 000.00"
+        }
+    ]
+}

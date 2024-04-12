@@ -1,0 +1,38 @@
+.ui-content {
+    text-align: center;
+}
+
+section {
+
+    justify-content: center;
+    align-content: center;
+
+    align-self: center;
+}
+
+.roundedSquare {
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+img {
+    max-width: 250px;
+    width: auto;
+}
+
+
+.sevetyFivePercent {
+    max-width: 75%;
+    margin: auto;
+}
+
+.lightBlue {
+    background-color: aqua;
+}
+
+button {
+    max-width: 20%;
+    margin: auto;
+    align-self: center;
+}

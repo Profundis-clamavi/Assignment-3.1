@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Vecta corp</title>
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+
+    <link rel="stylesheet" href="themes/my-theme.min.css" />
+
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!-- my javascript file -->
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="pg" data-role="page" id="XML">
+        <header data-role="header">
+            <h1>XML</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#XML" data-icon="home" class="ui-btn-active ui-state-persist" data-theme="b">XML</a>
+                    </li>
+                    <li><a href="#JSON" data-icon="home" data-theme="b">JSON</a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="ui-content" role="main">
+            <button id="loadXmlBtn" style="max-width: 20%; margin: auto;">Load XML data</button>
+            <div id="project"></div>
+        </section>
+        <footer data-role="footer">
+            <h4>&copy; Nathaniel Yeo 2024</h4>
+        </footer>
+    </div>
+
+    <!-- JSON -->
+    <div class="pg" data-role="page" id="JSON">
+        <header data-role="header">
+            <h1>JSON</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#XML" data-icon="home" data-theme="b">XML</a></li>
+
+                    <li><a href="#JSON" data-icon="home" class="ui-btn-active ui-state-persist" data-theme="b">JSON</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <section data-role="content">
+            <!-- grid and its content -->
+            <button id="loadJsonBtn" style="max-width: 20%; margin: auto;">Load JSON data</button>
+            <div id="teammembers"></div>
+
+            <a href="#" data-role="button" data-rel="back" data-icon="back" data-theme="b"> Back </a>
+        </section>
+        <footer data-role="footer">
+            <h4>&copy; Nathaniel Yeo 2024</h4>
+        </footer>
+    </div>
+
+</body>
+
+</html>
