@@ -17,8 +17,7 @@ section {
 }
 
 img {
-/*     max-width: 250px; */
-    max-width: 20%;
+    max-width: 250px;
     width: auto;
 }
 
@@ -33,7 +32,7 @@ img {
 }
 
 button {
-    max-width: 20%;
+    max-width: 50%;
     margin: auto;
     align-self: center;
 }
